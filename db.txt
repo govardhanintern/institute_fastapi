@@ -1,0 +1,15 @@
+CREATE DATABASE gi;
+
+use gi;
+
+INSERT INTO counselor (name, email, password) VALUES ('Kishan Rana','k@gmail.com', '123');
+
+
+select * from counselor;
+select * from course;
+select * from course_counselor;
+select * from batch;
+select * from batch_counselor;
+select * from student;
+select * from student_remarks;
+select * from student_course;
